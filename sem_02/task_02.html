@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Отзывы о продуктах</title>
+</head>
+<body>
+  <select id="productSelect">
+    <option value="Apple iPhone 13">Apple iPhone 13</option>
+    <option value="Samsung Galaxy Z Fold 3">Samsung Galaxy Z Fold 3</option>
+    <option value="Sony PlayStation 5">Sony PlayStation 5</option>
+  </select>
+  <br><br>
+  <textarea id="reviewText" rows="4" cols="50" placeholder="Введите отзыв (от 50 до 500 символов)"></textarea>
+  <br>
+  <p id="charCount">Символов: 0</p>
+  <button onclick="addReview()">Добавить отзыв</button>
+  <br><br>
+  <div id="reviewsContainer"></div>
+
+  <script src="task_02.js"></script>
+</body>
+</html>
