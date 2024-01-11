@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#add-review, #view-reviews {
+    margin-bottom: 30px;
+}
+
+#add-review label, #view-reviews h2 {
+    margin-top: 10px;
+    display: block;
+}
+
+#review-text {
+    height: 100px;
+}
+
+#product-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-item {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.product-item:hover {
+    text-decoration: underline;
+    color: blue;
+}
